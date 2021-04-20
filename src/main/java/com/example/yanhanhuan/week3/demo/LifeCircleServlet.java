@@ -1,4 +1,4 @@
-package yanhanhuan.week3.demo;
+package com.example.yanhanhuan.week3.demo;
 
 import javax.servlet.*;
 import javax.servlet.http.*;

@@ -13,7 +13,7 @@
     </servlet-mapping>
     <servlet>
         <servlet-name>anyName</servlet-name><!--give any name -->
-        <servlet-class>week2.exercise</servlet-class><!--package +name of servlet class -->
+        <servlet-class>com.example.yanhanhuan.week2.exercise</servlet-class><!--package +name of servlet class -->
     </servlet>
     <servlet-mapping>
         <servlet-name>anyName</servlet-name>

@@ -1,26 +1,17 @@
 <%--
   Created by IntelliJ IDEA.
-  User: 18279597276
-  Date: 2021/3/17
-  Time: 10:59
+  User: 86176
+  Date: 2021/3/15
+  Time: 8:53
   To change this template use File | Settings | File Templates.
 --%>
-<%@ page contentType="text/html;charset=UTF-8" language="java" %>
-<html>
-<head>
-    <title>Title</title>
-</head>
-<body style="text-align: center;margin:auto;">
-<a href="index.jsp">go to ecjtu</a><!-- method is GET-->
-<form method="post"><!--what is method when we use form?--><!--its GET,why?default is GET-->
-    <!-- its better to use POST in form-->
-    <tr height="40px">Name:<input type="text" name="name"> <br/>
-    </tr>
-    ID  :<input type="text" name="id "> <br/>
-    Name:<input type="text" name="sex"> <br/>
-    Email:<input type="text" name="email"> <br/>
-    <input type="submit" value="Send data to server"/>
-</form>
+<%@ page contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" %>
+<!DOCTYPE html>
+<%@include file="header.jsp"%>
+<h1 style="font-family: 'Arial Black';font-size: 30px"><%= "Welcome to my homepage"%>
+</h1>
+<br/>
+<br/>
+<h1>This is My Jsp Page!</h1>
 
-</body>
-</html>
+<%@include file="footer.jsp"%>

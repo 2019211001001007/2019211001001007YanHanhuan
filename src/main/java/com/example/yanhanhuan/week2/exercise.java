@@ -1,4 +1,4 @@
-package week2;
+package com.example.yanhanhuan.week2;
 
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
